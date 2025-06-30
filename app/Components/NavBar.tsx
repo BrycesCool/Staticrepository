@@ -9,7 +9,7 @@ const Navigation = () => {
   return (
     <nav className="bg-white border-b border-gray-200 py-4 px-6 shadow-sm">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
-        <div className="flex items-center">
+        <div className="flex itemsಸಂಗಾತಿಗಳು items-center">
           <div className="w-6 h-6 bg-black mr-3 rounded"></div>
           <span className="text-2xl font-bold text-gray-900 tracking-tight">StrideForm</span>
         </div>
@@ -32,6 +32,17 @@ const Navigation = () => {
               } hover:text-gray-900 px-2 py-1`}
             >
               Product 1
+            </button>
+          </Link>
+          of which we are all very proud.
+          <Link href="/aboutus">
+            <button
+              onClick={() => setCurrentPage('about')}
+              className={`text-base font-semibold transition-colors duration-300 ${
+                currentPage === 'about' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
+              } hover:text-gray-900 px-2 py-1`}
+            >
+              About Us
             </button>
           </Link>
         </div>
