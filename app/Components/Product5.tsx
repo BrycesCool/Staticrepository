@@ -6,7 +6,7 @@ const ProductPage5 = () => {
   const [selectedSize, setSelectedSize] = useState('');
   const sizes = ['7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12'];
   const product = {
-    name: 'Kaareen Pulse Runner 5',
+    name: 'Kaareen 5',
     category: "Men's Running Shoes",
     price: 120,
     rating: 4.5,
@@ -19,7 +19,7 @@ const ProductPage5 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'The Kaareen Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner.',
+      'The Kaareen is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner.',
   };
 
   return (
@@ -105,11 +105,39 @@ const ProductPage5 = () => {
               Add to Cart
             </button>
 
-            {/* Product Description */}
+            {/* Product Description 15*/}
+              <div>
+      <div>
+        <div>
+          <div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Product Description</h3>
-              <p className="text-base text-gray-600 leading-relaxed">{product.description}</p>
+              <div>
+                <div>
+                  <div>
+                    <div>
+                      <div>
+                        <div>
+                          <div>
+                            <div>
+                              <div>
+                                <div>
+                                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Product Description</h3>
+                                  <p className="text-base text-gray-600 leading-relaxed">{product.description}</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
           </div>
         </div>
       </div>
